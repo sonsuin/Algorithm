@@ -1,6 +1,4 @@
-package baekjoonFirst;
-
-public class Main {
+public class q2557 {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 	}	

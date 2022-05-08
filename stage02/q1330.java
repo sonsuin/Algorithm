@@ -7,14 +7,8 @@ public class q1330 {
         int B = sc.nextInt();
         sc.close();
 
-        if(A>B){
-            System.out.print(">");
-        }
-        if(A<B){
-            System.out.print("<");
-        }
-        if(A==B){
-            System.out.print("==");
-        }
+        if(A>B) System.out.print(">");
+        else if(A<B) System.out.print("<");
+        else System.out.print("==");
     }
 }
